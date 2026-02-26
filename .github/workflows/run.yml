@@ -1,5 +1,9 @@
 name: Run CodemaoAutoTop
 
+env:
+  CODEMAO_PHONE: ${{ secrets.CODEMAO_PHONE }}
+  CODEMAO_PASSWORD: ${{ secrets.CODEMAO_PASSWORD }}
+
 on:
   workflow_dispatch:
   schedule:
